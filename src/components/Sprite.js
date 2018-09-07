@@ -7,8 +7,8 @@ export const Sprite = ({ filename, x, y, width, height }) => {
     return null
   }
 
-  x *= 2
-  y *= 2
+  // x *= 2
+  // y *= 2
 
   const style = {
     backgroundImage: `url(${filename})`,
@@ -19,3 +19,5 @@ export const Sprite = ({ filename, x, y, width, height }) => {
 
   return <div style={style} data-x={x} data-y={y} data-w={width} data-h={height} />
 }
+
+//const bg = Sprite(then fill out the hash)

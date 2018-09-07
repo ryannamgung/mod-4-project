@@ -5,10 +5,11 @@ import GameContainer from './containers/GameContainer'
 import {Sprite} from './components/Sprite'
 import sheet from './res/maple-foreground.png'
 
+//rather import the const we have defined instead of sprite
 class App extends Component {
   render() {
     return (
-      <div className='App'>
+      <div className='App' id="fakingcanvas">
         {Sprite({
           filename: sheet,
           x : 116,

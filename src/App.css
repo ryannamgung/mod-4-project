@@ -26,3 +26,12 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+#fakingcanvas {
+  border: 1px solid #000;
+  height: 480px;
+  width: 320px;
+  overflow: hidden;
+  position: relative;
+  background-color: #70C5CF
+}
