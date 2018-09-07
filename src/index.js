@@ -6,3 +6,8 @@ import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();
+
+document.addEventListener('keydown', (e) => {
+  let player = document.getElementById('player')
+  debugger
+})

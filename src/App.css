@@ -29,8 +29,8 @@
 
 #fakingcanvas {
   border: 1px solid #000;
-  height: 480px;
-  width: 320px;
+  height: 1000px;
+  width: 1000px;
   overflow: hidden;
   position: relative;
   background-color: #70C5CF
