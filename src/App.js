@@ -8,6 +8,11 @@ import {idle} from './components/Sprite'
 
 //rather import the const we have defined instead of sprite
 class App extends Component {
+  constructor(){
+    super()
+    this.props = {}
+  }
+
   render() {
     return (
       <div className='App' id="fakingcanvas">

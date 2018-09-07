@@ -28,9 +28,10 @@
 }
 
 #fakingcanvas {
+
   border: 1px solid #000;
-  height: 1000px;
-  width: 1000px;
+  height: 700px;
+  width: 700px;
   overflow: hidden;
   position: relative;
   background-color: #70C5CF

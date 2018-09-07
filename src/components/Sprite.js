@@ -24,6 +24,10 @@ const style = {
   // backgroundPosition: `${0 * (-1)}px ${0 * (-1)}px`,
   backgroundPosition: `0px 0px`,
   width: 103,
-  height: 149
+  height: 149,
+  position: 'absolute',
+  left: 0,
+  top: 0
 }
+
 export const idle = <div style={style} id='player'></div>
